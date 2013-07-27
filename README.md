@@ -9,6 +9,7 @@ When collaborating, or even commiting on your own project, the commit history _s
 ## Commit types
 * [feature](#feature)
 * [fix](#fix)
+* [style](#style)
 * [docs](#docs)
 * [test](#test)
 
@@ -44,6 +45,21 @@ fix(user registration): fixed email field validation
 Validation wasn't working on the server side, now it is working fine on both client and server sides.
 
 closes #25, #38
+```
+
+### Style
+When changing _only_ code styling, for example: a bad indentation.
+
+> style(feature name): short description
+>
+> Long description
+
+Example:
+
+```
+style(user registration): added blank line before comment start.
+
+It's better and more entendible ;).
 ```
 
 ### Docs
